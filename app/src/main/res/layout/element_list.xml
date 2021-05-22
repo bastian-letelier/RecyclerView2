@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto_1"
+        android:textSize="22dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:text="1"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/derecha"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/derecha3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto_2"
+        android:layout_toEndOf="@+id/texto_1"
+        android:layout_toStartOf="@id/derecha"
+        android:text="Registro"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+
+
+
+</RelativeLayout>
